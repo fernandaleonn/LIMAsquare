@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='CUADRADOSLATINOS',
+setup(name='LIMA's squares',
       version='0.1',
       description='A Python package for something',
       url='https://github.com/fernandaleonn/CUADRADOSLATINOS',
