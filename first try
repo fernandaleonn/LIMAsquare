@@ -1,0 +1,26 @@
+import networkx as nx
+import numpy as np
+from itertools import combinations
+
+def pares(size):
+    matrix = np.zeros((size,size), dtype=int)
+    for _ in range(16):
+        for i in range(size):
+            for j in range(size):
+                matrix[i,j] =  np.random.randint(1,size+1)
+        yield matrix
+a=pares(2)
+
+#otra idea
+import networkx as nx
+import numpy as np
+
+def reduced(size):
+    matrix = np.zeros((size,size), dtype=int)
+    matrix[0] =  np.arange(1,size+1)
+    matrix[:,0] = np.arange(1,size+1)
+
+    return matrix
+
+reduced(5)
+
