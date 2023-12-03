@@ -1,6 +1,7 @@
 from itertools import permutations
 
 def  city_permutation(cities):
+     """This function calculte all the permutation from the cities, i.e. all the ways to travel"""
      all_permutations = list(permutations(range(0, ciudades )))
      return [permutation + (0,) for permutation in all_permutations
              if permutation[0] == 0]
