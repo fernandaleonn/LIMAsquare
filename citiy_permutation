@@ -1,0 +1,10 @@
+from itertools import permutations
+
+def  city_permutation(cities):
+     all_permutations = list(permutations(range(0, ciudades )))
+     return [permutation + (0,) for permutation in all_permutations
+             if permutation[0] == 0]
+
+# Example usage with cities = 5
+cost(5)
+
