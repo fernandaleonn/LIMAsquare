@@ -1,0 +1,3 @@
+# LIMAsquare
+
+En este proyecto hablaremos de ...
